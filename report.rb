@@ -51,7 +51,7 @@ class Report
     Tools.insert(params)
     mail = Mail.new do
       from 'me@test.lindsaar.net'
-      to 'root@jameslarisch.com'
+      to 'jamesfordummies@gmail.com'
       subject 'Magic Time'
       body Tools.retrieve_by_date(Date.today).last.to_s
     end

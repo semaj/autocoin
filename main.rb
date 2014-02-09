@@ -1,4 +1,3 @@
-require './tools'
 require './report'
 require 'daemons'
 
